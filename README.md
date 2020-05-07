@@ -1,14 +1,14 @@
 # canvas-game
 
-**`live-server`** is a litte development server with live reload, so wo can review result when coding.
-
 ```bash
 $ git clone https://github.com/Allen7D/canvas-game.git
-$ cd mini-shop-server 
+$ cd canvas-game
 $ npm install -g live-server
-$ live-server  # start server
+$ live-server  # 启动
 ```
+
 
 <div style="text-align:center;">
     <img src="./blog/images/snap.jpg" width="400px">
 </div>
+

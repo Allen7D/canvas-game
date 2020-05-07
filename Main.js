@@ -16,7 +16,12 @@ import { Record } from "./js/player/Record.js"
 
 export class Main {
   constructor(domId) {
+    let screenW = document.documentElement.clientWidth //屏幕宽度
+    let screenH = document.documentElement.clientHeight //屏幕高度
+
     this.canvas = document.getElementById(domId)
+    this.canvas.width = screenW
+    this.canvas.height = screenH
     this.ctx = this.canvas.getContext('2d')
     this.dataStore = DataStore.getInstance()
     this.director = Director.getInstance()
